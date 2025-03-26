@@ -1,0 +1,4 @@
+baseURL = 'https://claridelune.com/'
+languageCode = 'es'
+title = 'Claridelune Site'
+theme = 'archie-claridelune-theme'

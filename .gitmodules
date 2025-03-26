@@ -1,0 +1,3 @@
+[submodule "themes/archie-claridelune-theme"]
+	path = themes/archie-claridelune-theme
+	url = https://github.com/claridelune/archie-claridelune-theme.git
