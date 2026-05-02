@@ -1,0 +1,53 @@
+html {
+  background-color: #000000;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+  border-bottom: 1px solid #5e81bb;
+  margin-bottom: 1rem;
+}
+
+body {
+	color: #ffffff;
+  font-family: Share Tech Mono;
+  /* line-height: 1.5; */
+  margin: 0 8rem;
+}
+
+h1 {
+	color: #5e81fa;
+	margin: 1rem 0;
+}
+
+nav {
+	margin: 1rem 0;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+a {
+  color: #a3f08f;
+}
+
+b {
+	color; #ebcb8b;
+}
+
+ul {
+	list-style: none;
+	padding-left: 1rem;
+}
+
+footer {
+  border-top: 1px solid #5e81bb;
+  margin-top: 1rem;
+}
+
+@media screen and (width <= 80rem) {
+  body {
+    margin: 1rem 1rem;
+  }
+}

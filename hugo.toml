@@ -1,41 +1,31 @@
 baseURL = 'https://claridelune.com/'
-languageCode = 'es'
-title = 'claridelune.com'
-theme = 'archie-claridelune-theme'
+title = 'claridelune website'
+theme = 'claridelune-theme'
 
-copyright = "© claridelune"
+[languages]
+	[languages.en]
+		label = 'English'
+		locale = 'en-US'
+		title = 'claridelune website'
+		weight = 1
+	[languages.es]
+		label = 'Español'
+		locale = 'es-PE'
+		title = 'claridelune website'
+		weight = 2
 
-[[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/claridelune"
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
 
-[[params.social]]
-name = "Mastodon"
-icon = "simple:mastodon"
-url = "https://social.vivaldi.net/@claridelune"
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 20
 
-[[params.social]]
-name = "Linkedin"
-icon = "linkedin"
-url = "https://www.linkedin.com/in/claridelune"
-
-[[menu.main]]
-name = "/home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "/posts"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "/now"
-url = "/now"
-weight = 3
-
-[[menu.main]]
-name = "/tags"
-url = "/tags"
-weight = 4
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 30
