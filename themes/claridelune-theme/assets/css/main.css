@@ -12,7 +12,7 @@ header {
 body {
 	color: #ffffff;
   font-family: Share Tech Mono;
-  /* line-height: 1.5; */
+  line-height: 1.65;
   margin: 0 8rem;
 }
 
@@ -46,8 +46,20 @@ footer {
   margin-top: 1rem;
 }
 
-@media screen and (width <= 80rem) {
+code {
+  color: #d19a66;
+	padding: 5px;
+}
+
+blockquote {
+	font-syle: italic;
+	opacity: 0.8;
+	padding: 0.2rem 1.2rem;
+	border-left: 4px solid;
+}
+
+@media screen and (width <= 45rem) {
   body {
-    margin: 1rem 1rem;
+    margin: 0.5rem 0.5rem;
   }
 }

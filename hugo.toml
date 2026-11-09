@@ -2,16 +2,18 @@ baseURL = 'https://claridelune.com/'
 title = 'claridelune website'
 theme = 'claridelune-theme'
 
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 [languages]
 	[languages.en]
 		label = 'English'
-		locale = 'en-US'
-		title = 'claridelune website'
+		locale = 'en'
+		contentDir = "content/en"
 		weight = 1
 	[languages.es]
 		label = 'Español'
-		locale = 'es-PE'
-		title = 'claridelune website'
+		locale = 'es'
+		contentDir = "content/es"
 		weight = 2
 
 [menus]
@@ -29,3 +31,8 @@ theme = 'claridelune-theme'
     name = 'Tags'
     pageRef = '/tags'
     weight = 30
+
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 40

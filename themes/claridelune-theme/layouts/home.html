@@ -1,8 +1,10 @@
 {{ define "main" }}
   {{ .Content }}
-  {{ range site.RegularPages }}
+	<br>
+	<h2>Recent Posts</h2>
+  {{ range first 3 site.RegularPages.ByDate.Reverse }}
     <section>
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
       {{ .Summary }}
     </section>
   {{ end }}
